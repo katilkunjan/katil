@@ -1,6 +1,6 @@
-name: vote
+name: bhumiharsaurabh
 selector:
-  app.kubernetes.io/part-of: vote
+  app.kubernetes.io/part-of: bhumiharsaurabh
   app.kubernetes.io/component: api
 image: python:3
 command: ["python3", "main.py"]
