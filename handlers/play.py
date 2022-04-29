@@ -160,26 +160,17 @@ async def play(_, message: Message):
 
         keyboard = InlineKeyboardMarkup(
             [
+                
                 [
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
                             url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
+               
                     InlineKeyboardButton(
-                            text="༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ",
-                            url=f"https://t.me/tera_baap_katil"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
-                            url=f"https://t.me/FULL_MASTI_CLUBS")
-                   
-                ]
+                            url=f"https://t.me/FULL_MASTI_CLUBS") 
+                ],
+                
             ]
         )
 
@@ -217,22 +208,13 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
                             url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
+             
+                    
                     InlineKeyboardButton(
-                            text="༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ",
-                            url=f"https://t.me/tera_baap_katil"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
-                   
-                ]
+                ],
+                
             ]
         )
 
@@ -247,22 +229,13 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
                             url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
+              
+                    
                     InlineKeyboardButton(
-                            text="༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ",
-                            url=f"https://t.me/tera_baap_katil"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
-                   
-                ]
+                ],
+                
             ]
         )
 
@@ -315,22 +288,13 @@ async def play(_, message: Message):
                     InlineKeyboardButton(
                             text="𝐂𝐡𝐚𝐧𝐧𝐞𝐥📡",
                             url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
+              
+                    
                     InlineKeyboardButton(
-                            text="༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ",
-                            url=f"https://t.me/tera_baap_katil"),
-                            
-                    InlineKeyboardButton(
-                            text="𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🥀",
-                            url=f"https://t.me/heartbrokenperson1")
-               ],
-               [
-                        InlineKeyboardButton(
                             text="𝐆𝐫𝐨𝐮𝐩⭐",
                             url=f"https://t.me/FULL_MASTI_CLUBS")
-                   
-                ]
+                 ],
+                
             ]
         )
 
