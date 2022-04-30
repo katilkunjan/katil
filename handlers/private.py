@@ -27,7 +27,7 @@ async def start_(client: Client, message: Message):
                     InlineKeyboardButton("⚙️ 𝐒𝐨𝐮𝐫𝐜𝐞 ", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
                 ],[
                     InlineKeyboardButton("📨 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 ", url=f"https://t.me/full_masti_clubs"),
-                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/heartbrokenperson1")
+                    InlineKeyboardButton("📨 𝐔𝐩𝐝𝐚𝐭𝐞", url=f"https://t.me/heartbrokenperson1")
                 ],[
                     InlineKeyboardButton("🔍 How To Use? Commands", callback_data="cb_cmd")
                 ],
