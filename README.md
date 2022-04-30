@@ -27,12 +27,7 @@ MUSIC PLAYER FOT TELEGRAM
 ### Heroku Deployment
   
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhumiharsaurabh/katilmusicx)
-  
-  
-###  Okteto Deployment
 
-<h4>Click the button below to deploy on Okteto!</h4>
-<a href="https://cloud.okteto.com/deploy?repository=https://github.com/bhumiharsaurabh/katilmusicx"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="250""/></a>
   
   ## ᴅᴇᴘʟᴏʏ ʀᴀɪʟᴡᴀʏ ꜱᴇʀᴠᴇʀ </h4>
 
@@ -60,4 +55,4 @@ Give us a star and fork our repo
   
 - Click Here 👇🏻 and Join Please
   
-  [![TMC EMPIRES](LOGO)](https://t.me/TMC_EMPIRES)
+  [![TMC EMPIRES](https://telegra.ph/file/13fba0e9d76c406ae9ce2.jpg)](https://t.me/TMC_EMPIRES)
