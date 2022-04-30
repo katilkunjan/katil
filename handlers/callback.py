@@ -17,13 +17,13 @@ For Help : @HEARTBROKENPERSON1**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("✚ Add me to your Group", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
+                    InlineKeyboardButton("✚ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
                 ],[
-                    InlineKeyboardButton("👤 Bot Owner", url=f"https://t.me/{OWNER_USERNAME}"),
-                    InlineKeyboardButton("📢 Source Code", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
+                    InlineKeyboardButton("👤 𝐁𝐎𝐓 𝐎𝐖𝐍𝐄𝐑", url=f"https://t.me/{OWNER_USERNAME}"),
+                    InlineKeyboardButton("📢 𝐒𝐎𝐔𝐑𝐂𝐄", url=f"https://github.com/bhumiharsaurabh/katilmusicx")
                 ],[
-                    InlineKeyboardButton("📨 Support", url=f"https://t.me/full_masti_clubs"),
-                    InlineKeyboardButton("📨 Updates", url=f"https://t.me/heartbrokenperson1")
+                    InlineKeyboardButton("📨 𝐆𝐑𝐎𝐔𝐏", url=f"https://t.me/full_masti_clubs"),
+                    InlineKeyboardButton("📨 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url=f"https://t.me/heartbrokenperson1")
                 ],[
                     InlineKeyboardButton("🔍 How To Use? Commands", callback_data="cb_cmd")
                 ],
