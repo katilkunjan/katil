@@ -28,7 +28,13 @@
   
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/bhumiharsaurabh/katilmusicx)
 
-  
+ 
+
+
+
+
+
+ 
   ## ᴅᴇᴘʟᴏʏ ʀᴀɪʟᴡᴀʏ ꜱᴇʀᴠᴇʀ </h4>
 
 [![Deploy+To+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/bhumiharsaurabh/katilmuiscx&envs=SESSION_NAME,BOT_TOKEN,BOT_NAME,API_ID,API_HASH,SUDO_USERS,DURATION_LIMIT)
@@ -46,6 +52,11 @@ Give us a star and fork our repo
 <a href="https://t.me/tera_baap_katil"><img src="https://img.shields.io/badge/KATIL-ReD.svg?style=for-the-badge&logo=Python"></a> 
   
   
+
+## 🚀 Okteto Deployment
+
+<h4>Click the button below to deploy on Okteto!</h4>
+<a href="https://cloud.okteto.com/deploy?repository=https://github.com/bhumiharsaurabh/katilmusicx"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200""/></a>
 
 ## Support & Updates 
 <a href="https://t.me/FULL_MASTI_CLUBS"><img src="https://img.shields.io/badge/Join-Group%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a> <a href="https://t.me/HEARTBROKENPERSON1"><img src="https://img.shields.io/badge/Join-Updates%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
