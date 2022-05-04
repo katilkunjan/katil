@@ -106,7 +106,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@StrayCoder"
+        user.first_name = "@tera_baap_katil"
     usar = user
     wew = usar.id
     try:
@@ -314,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="****❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ 𝐒𝐨𝐧𝐠 ❤️ 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 💫🤟** {}**\n𝗕𝘆 : @TMC_EMPIRES".format(position),
+            caption=f"**» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n𝗕𝘆 : @TMC_EMPIRES".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -331,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀 𝐀𝐭 🤟 `{}`...**\n𝗕𝘆 : @TMC_EMPIRES".format(
+            caption=f"**» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n **❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : @TMC_EMPIRES".format(
         message.chat.title
         ), )
 
