@@ -16,7 +16,7 @@
 > Always remember to use good API combo else your account could be deleted.
 
 <h4> Generate Session via Telegram Bot: </h4>    
-<p><a href="https://t.me/TmcStringGenBot"><img src="https://img.shields.io/badge/Generate%20On%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="350""/></a></p>
+<p><a href="https://t.me/TmcStringGenBot"><img src="https://img.shields.io/badge/Generate%20On%20Bot-blueviolet?style=for-the-badge&logo=Telegram" width="350""/></a></p>
 
 </details>
 
