@@ -314,7 +314,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption=f"**» ᴛʀᴀᴄᴋ ǫᴜᴇᴜᴇᴅ ᴀᴛ {position} **\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n𝗕𝘆 : @TMC_EMPIRES".format(position),
+            caption=f"**» ⏩ 𝐓𝐑𝐀𝐂𝐊 𝐐𝐔𝐄𝐔𝐄𝐃 𝐀𝐓 {position} **\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝐌𝐈𝐍𝐔𝐓𝐄s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n𝗕𝘆 : @TMC_EMPIRES".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -331,7 +331,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption=f"**» ɴᴏᴡ ᴘʟᴀʏɪɴɢ «**\n📌 **ᴛɪᴛʟᴇ​:** [{title[:65]}]({url})\n🕕 **ᴅᴜʀᴀᴛɪᴏɴ:** `{duration}` ᴍɪɴᴜᴛᴇs\n💕 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ​:** {message.from_user.mention}\n💔 **ᴘʟᴀʏɪɴɢ ɪɴ​:** `{message.chat.title}`\n🎥 **sᴛʀᴇᴀᴍ ᴛʏᴘᴇ:** ʏᴏᴜᴛᴜʙᴇ ᴍᴜsɪᴄ\n **❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : @TMC_EMPIRES".format(
+            caption=f"**»▶️ 𝐍𝐎𝐖 𝐏𝐋𝐀𝐘𝐈𝐍𝐆 «**\n➡️ **𝐓𝐈𝐓𝐋𝐄​:** [{title[:65]}]({url})\n🕕 **𝐃𝐔𝐑𝐀𝐓𝐈𝐎𝐍:** `{duration}` 𝑀𝐼𝑁𝑈𝑇𝐸s\n🥀 **𝐑𝐄𝐐𝐔𝐄𝐒𝐓𝐄𝐃 𝐁𝐘​:** {message.from_user.mention}\n❤️ **𝐏𝐋𝐀𝐘𝐈𝐍𝐆 𝐈𝐍​:** `{message.chat.title}`\n🎥 **𝐒𝐓𝐑𝐄𝐀𝐌 𝐓𝐘𝐏𝐄:** 𝐘𝐎𝐔𝐓𝐔𝐁𝐄 𝐌𝐔𝐒𝐈𝐂\n **❰ ★𝐓𝐌𝐂♪♪𝐌𝐔𝐒𝐈𝐂'𝐗✌︎✌︎★ ❱ Now 😄 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 📀...\n **𝗕𝘆 : @TMC_EMPIRES".format(
         message.chat.title
         ), )
 
