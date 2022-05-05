@@ -13,23 +13,25 @@ from pytgcalls.types.input_stream import InputStream
 
 ACTV_CALLS = []
 
-@Client.on_message(command(["pause"]) & other_filters)
+@Client.on_message(command(["pause", "rukja"]) & other_filters)
 @errors
 @authorized_users_only
 async def pause(_, message: Message):
+    await message.delete()
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 😔🥀")
+    await message.reply_text("▶️ 𝐏𝐚𝐮𝐬𝐞 BY{} 😔".format( message.from_user.mention ), )
 
 
-@Client.on_message(command(["resume"]) & other_filters)
+@Client.on_message(command(["resume", "chalja"]) & other_filters)
 @errors
 @authorized_users_only
 async def resume(_, message: Message):
+    await message.delete()
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("⏸ 𝐑𝐞𝐬𝐮𝐦𝐞 ❤️")
+    await message.reply_text("⏸ 𝐑𝐞𝐬𝐮𝐦𝐞 BY {}❤️".format( message.from_user.mention ), )
 
 
-@Client.on_message(command(["end"]) & other_filters)
+@Client.on_message(command(["end", "stop", "band"]) & other_filters)
 @errors
 @authorized_users_only
 async def stop(_, message: Message):
@@ -39,12 +41,14 @@ async def stop(_, message: Message):
         pass
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("❌ 𝐒𝐭𝐨𝐩 🛑 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 ✨")
+    await message.reply_text("❌ 𝐒𝐭𝐨𝐩 🛑 𝐒𝐭𝐫𝐞𝐚𝐦𝐢𝐧𝐠 BY {} 🥺".format(
+      message.from_user.mention ), )
 
-@Client.on_message(command(["skip"]) & other_filters)
+@Client.on_message(command(["skip", "next", "aage"]) & other_filters)
 @errors
 @authorized_users_only
 async def skip(_, message: Message):
+    await message.delete()
     global que
     chat_id = message.chat.id
     for x in callsmusic.pytgcalls.active_calls:
@@ -65,4 +69,4 @@ async def skip(_, message: Message):
                     ),
                 ),
             )
-    await message.reply_text("➡️ 𝐒𝐤𝐢𝐩 💫 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 ✨ 𝐒𝐨𝐧𝐠 🥀")
+    await message.reply_text("➡️ 𝐒𝐤𝐢𝐩 💫 𝐓𝐡𝐞 𝐂𝐮𝐫𝐫𝐞𝐧𝐭 ✨ 𝐒𝐨𝐧𝐠 BY {}🥀🤔".format( message.from_user.mention ), )
