@@ -1,9 +1,9 @@
-from pyrogram import Client
 import asyncio
-from config import SUDO_USERS
-from config import PMPERMIT
+from pyrogram import Client
+from helpers.filters import command
+from config import SUDO_USERS, BOT_NAME as sau, BOT_USERNAME as kunj, PMPERMIT, OWNER_USERNAME
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from callsmusic import client as USER
 
 PMSET =True
@@ -18,13 +18,28 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "𝐇𝐢 𝐆𝐲𝐮𝐬𝐬 :) <𝟑\n𝐀𝐧𝐲 𝐇𝐞𝐥𝐩 𝐃𝐦 𝐌𝐲 𝐒𝐰𝐞𝐞𝐭 💜\n𝐌𝐚𝐬𝐭𝐞𝐫 🎸 :- [༒︎★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](https://t.me/tera_baap_katil) ❤️\n",
-            )
+                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{sau}](t.me/{kunj}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ꜰᴜ*ᴋᴇᴅ ʙʏ [★•亗『𝐊𝐀𝐓𝐈𝐋』亗•★ ](t.me/{OWNER_USERNAME}).\n",
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton(
+                        "🥱 ʙᴏᴛ 🥱", url=f"https://t.me/{kunj}"
+                    ),
+                    InlineKeyboardButton(
+                        "💖 sᴜᴩᴩᴏʀᴛ 💖", url="https://github.com/bhumiharsaurabh/katilmusicx"
+                    )
+                ],[ 
+                    InlineKeyboardButton(
+                        "💞 ᴏᴡɴᴇʀ​​ 💞", url=f"https://t.me/{OWNER_USERNAME}"
+                    )]
+            ]
+        ),
+
+    )
             return
 
-    
 
-@Client.on_message(filters.command(["/pmpermit"]))
+@Client.on_message(filters.command(["pm", "pmpermit"]))
 async def bye(client: Client, message: Message):
     if message.from_user.id in SUDO_USERS:
         global PMSET
@@ -48,7 +63,7 @@ async def autopmPermiat(client: USER, message: Message):
         return
     message.continue_propagation()    
     
-@USER.on_message(filters.command("a", [".", ""]) & filters.me & filters.private)
+@USER.on_message(filters.command("a", ["!", ".", ""]) & filters.me & filters.private)
 async def pmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
@@ -58,7 +73,7 @@ async def pmPermiat(client: USER, message: Message):
     message.continue_propagation()    
     
 
-@USER.on_message(filters.command("da", [".", ""]) & filters.me & filters.private)
+@USER.on_message(filters.command("da", ["!", ".", ""]) & filters.me & filters.private)
 async def rmpmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if chat_id in pchats:
