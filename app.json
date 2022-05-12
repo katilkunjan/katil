@@ -16,7 +16,7 @@
     },
     "BOT_NAME": {
       "description": "A name for your MusicPlayer Bot",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "BOT_USERNAME": {
